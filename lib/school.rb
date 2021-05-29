@@ -1,7 +1,8 @@
 # codes here
 class School
   
-  def intialization
-   roster = {}
+  def intialization(name)
+    @name = name
+    @roster = {}
  end
 end
